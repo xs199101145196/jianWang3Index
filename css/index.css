@@ -1,0 +1,2374 @@
+/*header的开始  */
+header {
+    width: 100%;
+    height: 50px;
+    background:url("../img/顶部栏/navibar.png");
+}
+header .header-top {
+    position: relative;
+    width: 1200px;
+    height: 49px;
+    line-height: 49px;
+    margin: 0 auto;
+}
+header .header-top .logo {
+    float: left;
+    width: 85px;
+    padding: 5px;
+    height: 39px;
+    line-height: 39px;
+    cursor: pointer;
+}
+header .header-top .logo span {
+    position: absolute;
+    top: 15px;
+    left: 90px;
+    width: 1px;
+    height: 20px;
+    background-color: #ccc;
+}
+header .header-top .login {
+    float: right;
+    position: relative;
+    width: 367px;
+    height: 49px;
+}
+header .header-top .login span {
+    height: 48px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 12px;
+    padding: 0 12px;
+    color: #555555;
+}
+header .header-top .login span:hover {
+    background-color: rgba(150,150, 150, .1);
+    border-bottom: 2px solid #E94A37;
+    cursor: pointer;
+}
+header .header-top .login span:nth-child(1) {
+    position: absolute;
+    width: 26px;
+    color: #E94A37;
+}
+header .header-top .login span:nth-child(2) {
+    position: absolute;
+    width: 52px;
+    left: 50px;
+    color: #E94A37;
+}
+header .header-top .login span:nth-child(3) {
+    position: absolute;
+    width: 52px;
+    left: 126px;
+    color: #E94A37;
+}
+header .header-top .login span:nth-child(4) {
+    position: absolute;
+    width: 26px;
+    left: 202px;
+}
+header .header-top .login span:nth-child(5) {
+    position: absolute;
+    width: 26px;
+    left: 252px;
+}
+header .header-top .login span:nth-child(6) {
+    position: absolute;
+    width: 52px;
+    left: 302px;
+}
+
+
+/*header的结束  */
+
+/*二维码固定定位的开始  */
+.code-fixed {
+    position: fixed;
+    width: 166px;
+    height: 452px;
+    left: 5px;
+    bottom: 30px;
+    background: url("../img/二维码/wx.png") round;
+    z-index: 999;
+}
+/*二维码固定定位的结束  */
+
+/*content内容的开始  */
+.content {
+    width: 100%;
+    background: url("../img/bg.jpg") no-repeat -390px 0;
+    background-color: #eaecf1; 
+}
+
+/*主体内容背景区的开始  */
+.content .content-top {
+    position: relative;
+    width: 1200px;
+    height: 550px;
+    margin: 0 auto;
+}
+
+/*主体顶部导航的开始  */
+.content .content-top nav {
+    width: 1200px;
+    height: 70px;
+    margin: 0 auto;
+}
+.content .content-top nav a {
+    position: absolute;
+    top: 17px;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+.content .content-top nav a:nth-child(1) {
+    left: 40px;
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+}
+.content .content-top nav a:nth-child(1):hover {
+    transform: scale(1.2);
+}
+.content .content-top nav a:nth-child(2) {
+    left: 146px;
+    width: 66px;
+    height: 36px;
+    line-height: 36px;
+}
+.content .content-top nav a:nth-child(2):hover {
+    transform: scale(1.2);
+}
+.content .content-top nav a:nth-child(3) {
+    left: 262px;
+    width: 66px;
+    height: 36px;
+    line-height: 36px;
+}
+.content .content-top nav a:nth-child(3):hover {
+    transform: scale(1.2);
+}
+.content .content-top nav a:nth-child(4) {
+    left: 380px;
+    width: 66px;
+    height: 36px;
+    line-height: 36px;
+}
+.content .content-top nav a:nth-child(4):hover {
+    transform: scale(1.2);
+}
+.content .content-top nav a:nth-child(5) {
+    right: 387px;
+    width: 66px;
+    height: 36px;
+    line-height: 36px;
+}
+.content .content-top nav a:nth-child(5):hover {
+    transform: scale(1.2);
+}
+.content .content-top nav a:nth-child(6) {
+    right: 272px;
+    width: 66px;
+    height: 36px;
+    line-height: 36px;
+}
+.content .content-top nav a:nth-child(6):hover {
+    transform: scale(1.2);
+}
+.content .content-top nav a:nth-child(7) {
+    right: 153px;
+    width: 66px;
+    height: 36px;
+    line-height: 36px;
+}
+.content .content-top nav a:nth-child(7):hover {
+    transform: scale(1.2);
+}
+.content .content-top nav a:nth-child(8) {
+    right: 40px;
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+}
+.content .content-top nav a:nth-child(8):hover {
+    transform: scale(1.2);
+}
+/*主体顶部导航的结束  */
+
+.content .content-bg {
+    position: absolute;
+    top: 24px;
+    left: 483px;  
+    width: 241px;
+    height: 103px;
+    background: url("../img/顶部栏/logo_2.png");
+}
+
+/*主体main的开始  */
+main {
+    position: relative;
+    width: 1200px;
+    height: 1850px;
+    margin: 0 auto;
+    /* background-color: red; */
+}
+
+/*主体内容背景区的结束  */
+
+/*--------------------------------华丽的分割线 左----------------------------------*/
+
+/*左边侧边栏的开始  */
+.aside-left {
+    position: absolute;
+    left: 0;
+    width: 290px;
+    height: 1850px;
+    /* background-color: skyblue; */
+}
+main>.aside-left>.left-list {
+    position: absolute;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 290px;
+    height: 1850px;
+}
+main>.aside-left>.left-list>li {
+    float: left;
+    position: relative;
+    margin-bottom: 15px;
+    width: 290px;
+    text-align: center;
+}
+
+/*-------------------left 01 start---------------------------*/
+main>.aside-left>.left-list>li:nth-child(1) {
+    height: 265px;
+    font-size: 14px;
+    color: #FFD2B2;
+}
+main>.aside-left>.left-list>li:nth-child(1)>.pic01 {
+    position: absolute;
+    width: 290px;
+    height: 175px;
+    cursor: pointer;
+    background: url("../img/icon01.jpg");
+}
+main>.aside-left>.left-list>li:nth-child(1)>.pic01:hover {
+    background: url("../img/icon01.jpg") 0 -175px;
+}
+main>.aside-left>.left-list>li:nth-child(1)>.pic02 {
+    position: absolute;
+    top: 175px; 
+    width: 144px;
+    height: 90px;
+    line-height: 140px;
+    cursor: pointer;
+    background: url("../img/icon01.jpg") 0 -351px;
+}
+main>.aside-left>.left-list>li:nth-child(1)>.pic02:hover {
+    background: url("../img/icon01.jpg") 0 -901px;
+}
+main>.aside-left>.left-list>li:nth-child(1)>.pic03 {
+    position: absolute;
+    top: 175px;
+    left: 144px;
+    width: 146px;
+    height: 90px;
+    line-height: 140px;
+    cursor: pointer;
+    background: url("../img/icon01.jpg") -144px -351px;
+}
+main>.aside-left>.left-list>li:nth-child(1)>.pic03:hover {
+    background: url("../img/icon01.jpg") -144px -901px;
+}
+/*-------------------left 01 end ---------------------------- */
+
+/*-------------------left 02 start-----------------------------*/
+main>.aside-left>.left-list>li:nth-child(2) {
+    height: 265px;
+}
+main>.aside-left>.left-list>li:nth-child(2)>.pic04 {
+    position: absolute;
+    width: 290px;
+    height: 265px;
+    background: url("../img/icon01.jpg") 0 -449px;
+}
+main>.aside-left>.left-list>li:nth-child(2)>.pic04>.pic04-list {
+    position: absolute;
+    right: 0;
+    bottom: 23px;
+    width: 266px;
+    height: 170px;
+}
+main>.aside-left>.left-list>li:nth-child(2)>.pic04>.pic04-list>li {
+    float: left;
+    position: relative;
+    width: 266px;
+    height: 30px;
+    text-align: left;
+    text-indent: 18px;
+}
+main>.aside-left>.left-list>li:nth-child(2)>.pic04>.pic04-list>li:hover i {
+    transform: rotateY(180deg);
+}
+
+main>.aside-left>.left-list>li:nth-child(2)>.pic04>.pic04-list>li>i {
+    position: absolute;
+    left: 0;
+    top: 5px;
+    width: 9px;
+    height: 9px;
+    background: url("../img/checkbox/icon.png") 0 -52px;
+    transition: all 1s;
+}
+main>.aside-left>.left-list>li:nth-child(2)>.pic04>.pic04-list>li:last-child {
+    position: absolute;
+    bottom: 0;
+    width: 72px;
+    height: 22px;
+    font-size: 12px;
+    line-height: 22px;
+    text-indent: 0;
+    text-align: center;
+    border: 1px solid #385C7C;
+}
+main>.aside-left>.left-list>li:nth-child(2)>.pic04>.pic04-list>li:last-child:hover {
+    background-color: #7E8B9B;
+    color: white;
+    cursor: pointer;
+}
+
+/*------------------------------left 02 end------------------------------*/
+
+/*------------------------------left 03 start------------------------------*/
+main>.aside-left>.left-list>li:nth-child(3) {
+    height: 435px;
+    background-color: #fff;
+}
+main>.aside-left>.left-list>li:nth-child(3)>.l-c-top {
+    position: absolute;
+    margin-left: 15px;
+    width: 260px;
+    height: 45px;
+    border-bottom: 1px solid #eaeaec;
+}
+main>.aside-left>.left-list>li:nth-child(3)>.l-c-top>span {
+    position: absolute;
+    left: 0;
+    width: 92px;
+    height: 45px;
+    line-height: 45px;
+    font-size: 16px;
+    color: #E86656;
+    border-bottom: 3px solid #E86656;
+}
+main>.aside-left>.left-list>li:nth-child(3)>.l-c-center {
+    position: absolute;
+    top: 60px;
+    left: 15px;
+    width: 260px;
+    height: 66px;
+     overflow: hidden; 
+}
+main>.aside-left>.left-list>li:nth-child(3)>.l-c-center>.l-c-c-list {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 260px;
+    height: 154px;
+}
+main>.aside-left>.left-list>li:nth-child(3)>.l-c-center>.l-c-c-list>li {
+    float: left;
+    position: relative;
+    width: 260px;
+    height: 22px;
+    line-height: 22px;
+    transition: all 1s;
+}
+main>.aside-left>.left-list>li:nth-child(3)>.l-c-center>.l-c-c-list>li:hover i{
+    transform: rotateY(180deg);
+}
+main>.aside-left>.left-list>li:nth-child(3)>.l-c-center>.l-c-c-list>li:nth-child(1)>i {
+    position: absolute;
+    top: 8px;
+    left: 0;
+    width: 9px;
+    height: 9px;
+    transition: all 1s;
+    background: url("../img/checkbox/icon.png") 0 -24px;
+}
+main>.aside-left>.left-list>li:nth-child(3)>.l-c-center>.l-c-c-list>li:nth-child(1)>span {
+    position: absolute;
+    left: 20px;
+}
+main>.aside-left>.left-list>li:nth-child(3)>.l-c-center>.l-c-c-list>li:nth-child(1)>s {
+    position: absolute;
+    top: 3px;
+    right: 1px;
+    width: 22px;
+    height: 16px;
+    color: green;
+    line-height: 16px;
+    text-indent: 3px;
+    background: url("../img/checkbox/icon.png") 0 -79px;
+}
+main>.aside-left>.left-list>li:nth-child(3)>.l-c-center>.l-c-c-list>li:nth-child(2)>i {
+    position: absolute;
+    top: 8px;
+    left: 0;
+    width: 9px;
+    height: 9px;
+    transition: all 1s;
+    background: url("../img/checkbox/icon.png") 0 -24px;
+}
+main>.aside-left>.left-list>li:nth-child(3)>.l-c-center>.l-c-c-list>li:nth-child(2)>span {
+    position: absolute;
+    left: 20px;
+}
+main>.aside-left>.left-list>li:nth-child(3)>.l-c-center>.l-c-c-list>li:nth-child(2)>s {
+    position: absolute;
+    top: 3px;
+    right: 1px;
+    width: 22px;
+    height: 16px;
+    color: green;
+    line-height: 16px;
+    text-indent: 3px;
+    background: url("../img/checkbox/icon.png") 0 -79px;
+}
+main>.aside-left>.left-list>li:nth-child(3)>.l-c-center>.l-c-c-list>li:nth-child(3)>i {
+    position: absolute;
+    top: 8px;
+    left: 0;
+    width: 9px;
+    height: 9px;
+    transition: all 1s;
+    background: url("../img/checkbox/icon.png") 0 -24px;
+}
+main>.aside-left>.left-list>li:nth-child(3)>.l-c-center>.l-c-c-list>li:nth-child(3)>span {
+    position: absolute;
+    left: 20px;
+}
+main>.aside-left>.left-list>li:nth-child(3)>.l-c-center>.l-c-c-list>li:nth-child(3)>s {
+    position: absolute;
+    top: 3px;
+    right: 1px;
+    width: 22px;
+    height: 16px;
+    color: green;
+    line-height: 16px;
+    text-indent: 3px;
+    background: url("../img/checkbox/icon.png") 0 -79px;
+}
+main>.aside-left>.left-list>li:nth-child(3)>.l-c-center>.l-c-c-list>li:nth-child(4)>i {
+    position: absolute;
+    top: 8px;
+    left: 0;
+    width: 9px;
+    height: 9px;
+    transition: all 1s;
+    background: url("../img/checkbox/icon.png") 0 -24px;
+}
+main>.aside-left>.left-list>li:nth-child(3)>.l-c-center>.l-c-c-list>li:nth-child(4)>span {
+    position: absolute;
+    left: 20px;
+}
+main>.aside-left>.left-list>li:nth-child(3)>.l-c-center>.l-c-c-list>li:nth-child(4)>s {
+    position: absolute;
+    top: 3px;
+    right: 1px;
+    width: 22px;
+    height: 16px;
+    color: green;
+    line-height: 16px;
+    text-indent: 3px;
+    background: url("../img/checkbox/icon.png") 0 -79px;
+}
+main>.aside-left>.left-list>li:nth-child(3)>.l-c-center>.l-c-c-list>li:nth-child(5)>i {
+    position: absolute;
+    top: 8px;
+    left: 0;
+    width: 9px;
+    height: 9px;
+    transition: all 1s;
+    background: url("../img/checkbox/icon.png") 0 -24px;
+}
+main>.aside-left>.left-list>li:nth-child(3)>.l-c-center>.l-c-c-list>li:nth-child(5)>span {
+    position: absolute;
+    left: 20px;
+}
+main>.aside-left>.left-list>li:nth-child(3)>.l-c-center>.l-c-c-list>li:nth-child(5)>s {
+    position: absolute;
+    top: 3px;
+    right: 1px;
+    width: 22px;
+    height: 16px;
+    color: green;
+    line-height: 16px;
+    text-indent: 3px;
+    background: url("../img/checkbox/icon.png") 0 -79px;
+}
+main>.aside-left>.left-list>li:nth-child(3)>.l-c-center>.l-c-c-list>li:nth-child(6)>i {
+    position: absolute;
+    top: 8px;
+    left: 0;
+    width: 9px;
+    height: 9px;
+    transition: all 1s;
+    background: url("../img/checkbox/icon.png") 0 -24px;
+}
+main>.aside-left>.left-list>li:nth-child(3)>.l-c-center>.l-c-c-list>li:nth-child(6)>span {
+    position: absolute;
+    left: 20px;
+}
+main>.aside-left>.left-list>li:nth-child(3)>.l-c-center>.l-c-c-list>li:nth-child(6)>s {
+    position: absolute;
+    top: 3px;
+    right: 1px;
+    width: 22px;
+    height: 16px;
+    color: green;
+    line-height: 16px;
+    text-indent: 3px;
+    background: url("../img/checkbox/icon.png") 0 -79px;
+}
+main>.aside-left>.left-list>li:nth-child(3)>.l-c-center>.l-c-c-list>li:nth-child(7)>i {
+    position: absolute;
+    top: 8px;
+    left: 0;
+    width: 9px;
+    height: 9px;
+    transition: all 1s;
+    background: url("../img/checkbox/icon.png") 0 -24px;
+}
+main>.aside-left>.left-list>li:nth-child(3)>.l-c-center>.l-c-c-list>li:nth-child(7)>span {
+    position: absolute;
+    left: 20px;
+}
+main>.aside-left>.left-list>li:nth-child(3)>.l-c-center>.l-c-c-list>li:nth-child(7)>s {
+    position: absolute;
+    top: 3px;
+    right: 1px;
+    width: 22px;
+    height: 16px;
+    color: green;
+    line-height: 16px;
+    text-indent: 3px;
+    background: url("../img/checkbox/icon.png") 0 -79px;
+}
+
+main>.aside-left>.left-list>li:nth-child(3)>.l-c-bottom {
+    position: absolute;
+    top: 137px;
+    left: 61px;
+    width: 162px;
+    height: 26px;
+    font-size: 14px;
+    line-height: 26px;
+    border: 1px solid #7E8B9B;
+    color: #7E8B9B;
+}
+main>.aside-left>.left-list>li:nth-child(3)>.l-c-bottom:hover {
+    background-color: #7E8B9B;
+    color: #fff;
+}
+main>.aside-left>.left-list>li:nth-child(3)>.l-c-foot {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 290px;
+    height: 255px;
+}
+main>.aside-left>.left-list>li:nth-child(3)>.l-c-foot>.guide>li {
+    float: left;
+    position: relative;
+    width: 144px;
+    height: 84px;
+    font-size: 14px;
+    line-height: 84px;
+    text-align: left;
+    text-indent: 70px;
+    color: #000;
+    border-top: 1px solid #E9E9E9;
+    border-left: 1px solid #E9E9E9;
+    opacity: 1;
+}
+main>.aside-left>.left-list>li:nth-child(3)>.l-c-foot>.guide>li::before {
+    float: left;
+    position: relative;
+    width: 144px;
+    height: 84px;
+    font-size: 14px;
+    line-height: 84px;
+    text-align: left;
+    text-indent: 70px;
+    color: #fff;
+    border-top: 1px solid #E9E9E9;
+    border-left: 1px solid #E9E9E9;
+    background-color: #60BCC7;
+    opacity: 0;
+}
+main>.aside-left>.left-list>li:nth-child(3)>.l-c-foot>.guide>li:nth-child(1)>span {
+    position: absolute;
+    left: 23px;
+    top: 28px;
+    width: 34px;
+    height: 30px;
+    background: url("../img/checkbox/icon.png") -1px -233px;
+    opacity: 1;
+}
+main>.aside-left>.left-list>li:nth-child(3)>.l-c-foot>.guide>li:nth-child(1):hover span {
+    background: url("../img/checkbox/icon.png") -1px -265px;
+}
+main>.aside-left>.left-list>li:nth-child(3)>.l-c-foot>.guide>li:nth-child(2)>span {
+    position: absolute;
+    left: 23px;
+    top: 28px;
+    width: 34px;
+    height: 30px;
+    background: url("../img/checkbox/icon.png") -39px -233px;
+}
+main>.aside-left>.left-list>li:nth-child(3)>.l-c-foot>.guide>li:nth-child(2):hover span {
+    background: url("../img/checkbox/icon.png") -39px -265px;
+}
+main>.aside-left>.left-list>li:nth-child(3)>.l-c-foot>.guide>li:nth-child(3)>span {
+    position: absolute;
+    left: 23px;
+    top: 28px;
+    width: 34px;
+    height: 30px;
+    background: url("../img/checkbox/icon.png") -78px -233px;
+}
+main>.aside-left>.left-list>li:nth-child(3)>.l-c-foot>.guide>li:nth-child(3):hover span {
+    background: url("../img/checkbox/icon.png") -78px -265px;
+}
+main>.aside-left>.left-list>li:nth-child(3)>.l-c-foot>.guide>li:nth-child(4)>span {
+    position: absolute;
+    left: 23px;
+    top: 28px;
+    width: 34px;
+    height: 30px;
+    background: url("../img/checkbox/icon.png") -117px -233px;
+}
+main>.aside-left>.left-list>li:nth-child(3)>.l-c-foot>.guide>li:nth-child(4):hover span {
+    background: url("../img/checkbox/icon.png") -117px -265px;
+}
+main>.aside-left>.left-list>li:nth-child(3)>.l-c-foot>.guide>li:nth-child(5)>span {
+    position: absolute;
+    left: 23px;
+    top: 28px;
+    width: 34px;
+    height: 30px;
+    background: url("../img/checkbox/icon.png") -154px -233px;
+}
+main>.aside-left>.left-list>li:nth-child(3)>.l-c-foot>.guide>li:nth-child(5):hover span {
+    background: url("../img/checkbox/icon.png") -154px -265px;
+}
+main>.aside-left>.left-list>li:nth-child(3)>.l-c-foot>.guide>li:nth-child(5):hover .guide-code {
+    display: block;
+}
+main>.aside-left>.left-list>li:nth-child(3)>.l-c-foot>.guide>li:nth-child(6)>span {
+    position: absolute;
+    left: 23px;
+    top: 28px;
+    width: 34px;
+    height: 30px;
+    background: url("../img/checkbox/icon.png") -191px -233px;
+}
+main>.aside-left>.left-list>li:nth-child(3)>.l-c-foot>.guide>li:nth-child(6):hover .code-001 {
+    background: url("../img/checkbox/icon.png") -191px -265px;
+}
+main>.aside-left>.left-list>li:nth-child(3)>.l-c-foot>.guide>li:nth-child(6):hover .guide-icon {
+    display: block;
+}
+
+/*-------------------------------------客户服务二维码-----------------------------  */
+main>.aside-left>.left-list>li:nth-child(3)>.l-c-foot>.guide>li:nth-child(5)>.guide-code {
+    position: absolute;
+    left: 0;
+    top: -186px;
+    width: 290px;
+    height: 186px;
+    background: url("../img/icon01.jpg") 0 -715px;
+    z-index: 3;
+    display: none;
+}
+/*-----------------------------------------官方微博---------------------------------  */
+
+.guide-icon {
+    position: relative;
+    left: -147px;
+    top: -316px;
+    width: 290px;
+    height: 230px;
+    border-top: 1px solid #CC3C3C;
+    border-left: 1px solid #CC3C3C;
+    border-right: 1px solid #CC3C3C;
+    background-color: #ECE9E4;
+    z-index: 3;
+    display: none;
+}
+
+.guide-icon>.icon01 {
+    position: absolute;
+    left: 60px;
+    top: 20px;
+    width: 54px;
+    height: 54px;
+    border: 2px solid #A8DE86;
+    background-color: red;
+}
+.guide-icon>.icon01>s {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 50px;
+    height: 50px;
+    border: 2px solid #fff;
+    background: url("../img/img/P_01.jpg");
+}
+.guide-icon>.icon-txt01 {
+    position: absolute;
+    left: -30px;
+    top: 88px;
+    height: 12px;
+    line-height: 12px;
+    font-size: 12px;
+    color: #0082CB;
+}
+.guide-icon>.icon01>b {
+    position: absolute;
+    left: 60px;
+    top: 66px;
+    width: 12px;
+    height: 12px;
+    background: url("../img/checkbox/ico.png") no-repeat 0 -207px;
+}
+.guide-icon>.icon02 {
+    position: absolute;
+    right: 60px;
+    top: 20px;
+    width: 54px;
+    height: 54px;
+    border: 2px solid #A8DE86;
+    background-color: #CCCCCC;
+}
+.guide-icon>.icon02>s {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 50px;
+    height: 50px;
+    border: 2px solid #fff;
+    background: url("../img/img/P_02.jpg");
+}
+.guide-icon>.icon-txt02 {
+    position: absolute;
+    right: 55px;
+    top: 88px;
+    height: 12px;
+    line-height: 12px;
+    font-size: 12px;
+    color: #0082CB;
+}
+.guide-icon>.icon02>b {
+    position: absolute;
+    left: 60px;
+    top: 66px;
+    width: 12px;
+    height: 12px;
+    background: url("../img/checkbox/ico.png") no-repeat 0 -232px;
+}
+.guide-icon>.icon03 {
+    position: absolute;
+    left: 60px;
+    bottom: 40px;
+    width: 54px;
+    height: 54px;
+    border: 2px solid #A8DE86;
+    background-color: #CCCCCC;
+}
+.guide-icon>.icon03>s {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 50px;
+    height: 50px;
+    border: 2px solid #fff;
+    background: url("../img/img/P_03.jpg");
+}
+.guide-icon>.icon-txt03 {
+    position: absolute;
+    left: -30px;
+    bottom: 18px;
+    height: 12px;
+    line-height: 12px;
+    font-size: 12px;
+    color: #0082CB;
+}
+.guide-icon>.icon03>b {
+    position: absolute;
+    left: 60px;
+    top: 66px;
+    width: 12px;
+    height: 12px;
+    background: url("../img/checkbox/ico.png") no-repeat 0 -232px;
+}
+.guide-icon>.icon04 {
+    position: absolute;
+    right: 60px;
+    bottom: 40px;
+    width: 54px;
+    height: 54px;
+    border: 2px solid #A8DE86;
+    background-color: #CCCCCC;
+}
+.guide-icon>.icon04>s {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 50px;
+    height: 50px;
+    border: 2px solid #fff;
+    background: url("../img/img/P_04.jpg");
+}
+.guide-icon>.icon-txt04 {
+    position: absolute;
+    right: 60px;
+    bottom: 20px;
+    height: 12px;
+    line-height: 12px;
+    font-size: 12px;
+    color: #0082CB;
+}
+.guide-icon>.icon04>b {
+    position: absolute;
+    left: 60px;
+    top: 66px;
+    width: 12px;
+    height: 12px;
+    background: url("../img/checkbox/ico.png") no-repeat 0 -232px;
+}
+
+
+
+/*------------------------------left 03 end------------------------------*/
+
+/*------------------------------left 04 start-----------------------------  */
+
+main>.aside-left>.left-list>li:nth-child(4) {
+    height: 290px;
+    background-color: #fff;
+}
+main>.aside-left>.left-list>li:nth-child(4)>.list04-top {
+    position: absolute;
+    margin-left: 15px;
+    width: 260px;
+    height: 45px;
+    border-bottom: 1px solid #eaeaec;
+    cursor: pointer;
+}
+main>.aside-left>.left-list>li:nth-child(4)>.list04-top>span {
+    position: absolute;
+    left: 0;
+    width: 74px;
+    height: 45px;
+    line-height: 45px;
+    font-size: 16px;
+    color: #E86656;
+    border-bottom: 3px solid #E86656;
+}
+main>.aside-left>.left-list>li:nth-child(4)>.list04-pic01 {
+    position: absolute;
+    left: 15px;
+    top: 60px;
+    width: 260px;
+    height: 100px;
+}
+main>.aside-left>.left-list>li:nth-child(4)>.list04-pic01>img {
+    width: 100%;
+    height: 100%;
+}
+main>.aside-left>.left-list>li:nth-child(4)>.list04-pic02 {
+    position: absolute;
+    left: 15px;
+    bottom: 15px;
+    width: 260px;
+    height: 100px;
+}
+main>.aside-left>.left-list>li:nth-child(4)>.list04-pic02>img {
+    width: 100%;
+    height: 100%;
+}
+
+
+/*------------------------------left 04 end--------------------------------  */
+
+/*------------------------------left 05 start-------------------------------  */
+main>.aside-left>.left-list>li:nth-child(5) {
+    height: 290px;
+    background-color: #fff;
+}
+main>.aside-left>.left-list>li:nth-child(5)>.list05-top {
+    position: absolute;
+    margin-left: 15px;
+    width: 260px;
+    height: 45px;
+    border-bottom: 1px solid #eaeaec;
+}
+main>.aside-left>.left-list>li:nth-child(5)>.list05-top>.txt01 {
+    position: absolute;
+    left: 0;
+    width: 74px;
+    height: 45px;
+    line-height: 50px;
+    font-size: 16px;
+    color: #E86656;
+    cursor: pointer;
+    border-bottom: 3px solid #E86656;
+}
+main>.aside-left>.left-list>li:nth-child(5)>.list05-top>.txt02 {
+    position: absolute;
+    left: 90px;
+    width: 74px;
+    height: 45px;
+    line-height: 50px;
+    font-size: 16px;
+    color: #444;
+    cursor: pointer;
+}
+main>.aside-left>.left-list>li:nth-child(5)>#txt03 {
+    position: absolute;
+    right: 17px;
+    width: 92px;
+    height: 45px;
+    text-align: right;
+    line-height: 50px;
+    font-size: 12px;
+    color: #444;
+    cursor: pointer;
+}
+main>.aside-left>.left-list>li:nth-child(5)>#txt03>span {
+    position: absolute;
+    right: 25px;
+    top: 0;
+}
+main>.aside-left>.left-list>li:nth-child(5)>#txt03>.line-box {
+    position: absolute;
+    right: 0;
+    top: 18px;
+    width: 12px;
+    height: 12px;
+    line-height: 10px;
+    text-align: center;
+    /* border: 1px solid #ccc; */
+    overflow: hidden;
+}
+main>.aside-left>.left-list>li:nth-child(5)>#txt03>.line-box>#line01 {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    width: 12px;
+    height: 1px;
+    background-color: #ccc;
+}
+main>.aside-left>.left-list>li:nth-child(5)>#txt03>.line-box>#line02 {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    height: 12px;
+    width: 1px;
+    background-color: #ccc;
+}
+main>.aside-left>.left-list>li:nth-child(5)>#txt03>.line-box>#line03 {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    width: 12px;
+    height: 1px;
+    background-color: #ccc;
+}
+main>.aside-left>.left-list>li:nth-child(5)>#txt03>.line-box>#line04 {
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    height: 12px;
+    width: 1px;
+    background-color: #ccc;
+}
+
+/*------------------------------------------  */
+main>.aside-left>.left-list>li:nth-child(5)>.list05-bottom {
+    position: absolute;
+    left: 15px;
+    bottom: 3px;
+    width: 260px;
+    height: 234px;
+    overflow: hidden;
+}
+main>.aside-left>.left-list>li:nth-child(5)>.list05-bottom>.bottom-tab {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 580px;
+    height: 234px;
+}
+main>.aside-left>.left-list>li:nth-child(5)>.list05-bottom>.bottom-tab>.pic05-list01 {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 290px;
+    height: 234px;
+}
+main>.aside-left>.left-list>li:nth-child(5)>.list05-bottom>.bottom-tab>.pic05-list01>li {
+    float: left;
+    position: relative;
+    width: 260px;
+    height: 33px;
+    line-height: 33px;
+    text-align: left;
+    text-indent: 18px;
+    border-bottom: 1px dotted #DADADA;
+}
+main>.aside-left>.left-list>li:nth-child(5)>.list05-bottom>.bottom-tab>.pic05-list01>li:hover i {
+    transform: rotateY(180deg);
+}
+
+main>.aside-left>.left-list>li:nth-child(5)>.list05-bottom>.bottom-tab>.pic05-list01>li>i {
+    position: absolute;
+    left: 0;
+    top: 12px;
+    width: 9px;
+    height: 9px;
+    background: url("../img/checkbox/icon.png") 0 -24px;
+    transition: all 1s;
+}
+
+main>.aside-left>.left-list>li:nth-child(5)>.list05-bottom>.bottom-tab>.pic05-list02 {
+    position: absolute;
+    right: 15px;
+    top: 0;
+    width: 290px;
+    height: 234px;
+}
+main>.aside-left>.left-list>li:nth-child(5)>.list05-bottom>.bottom-tab>.pic05-list02>li {
+    float: left;
+    position: relative;
+    width: 260px;
+    height: 33px;
+    line-height: 33px;
+    text-align: left;
+    text-indent: 18px;
+    border-bottom: 1px dotted #DADADA;
+}
+main>.aside-left>.left-list>li:nth-child(5)>.list05-bottom>.bottom-tab>.pic05-list02>li:hover i {
+    transform: rotateY(180deg);
+}
+
+main>.aside-left>.left-list>li:nth-child(5)>.list05-bottom>.bottom-tab>.pic05-list02>li>i {
+    position: absolute;
+    left: 0;
+    top: 12px;
+    width: 9px;
+    height: 9px;
+    background: url("../img/checkbox/icon.png") 0 -24px;
+    transition: all 1s;
+}
+/*----------------------------------------------------------------------------  */
+
+
+/*-------------------------------left 05 end---------------------------------  */
+main>.aside-left>.left-list>li:nth-child(6) {
+    margin-bottom: 0;
+    height: 230px;
+    background-color: #fff;
+}
+
+main>.aside-left>.left-list>li:nth-child(6)>.list06-top {
+    position: absolute;
+    margin-left: 15px;
+    width: 260px;
+    height: 45px;
+    border-bottom: 1px solid #eaeaec;
+}
+main>.aside-left>.left-list>li:nth-child(6)>.list06-top>.txt01 {
+    position: absolute;
+    left: 0;
+    width: 74px;
+    height: 45px;
+    line-height: 50px;
+    font-size: 16px;
+    color: #E86656;
+    cursor: pointer;
+    border-bottom: 3px solid #E86656;
+}
+main>.aside-left>.left-list>li:nth-child(6)>.list06-top>.txt02 {
+    position: absolute;
+    left: 88px;
+    width: 74px;
+    height: 45px;
+    line-height: 50px;
+    font-size: 16px;
+    color: #444;
+    cursor: pointer;
+}
+main>.aside-left>.left-list>li:nth-child(6)>.list06-top>.txt03 {
+    position: absolute;
+    right: 15px;
+    width: 74px;
+    height: 45px;
+    text-align: right;
+    line-height: 50px;
+    font-size: 16px;
+    color: #444;
+    cursor: pointer;
+}
+
+main>.aside-left>.left-list>li:nth-child(6)>.list06-bottom01 {
+    position: absolute;
+    top: 68px;
+    left: 15px;
+    width: 260px;
+    height: 151px;
+    opacity: 1;
+    z-index: 3;
+}
+main>.aside-left>.left-list>li:nth-child(6)>.list06-bottom01>.txt01 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 260px;
+    height: 32px;
+    line-height: 32px;
+    font-size: 12px;
+    text-align: left;
+    text-indent: 25px;
+    color: #444444;
+    background-color: #F8F8F8;
+}
+main>.aside-left>.left-list>li:nth-child(6)>.list06-bottom01>.txt01>i{
+    position: absolute;
+    top: 10px;
+    left: 5px;
+    width: 12px;
+    height: 12px;
+    background: url("../img/checkbox/icon.png") -69px -79px;
+}
+main>.aside-left>.left-list>li:nth-child(6)>.list06-bottom01>.txt02 {
+    position: absolute;
+    top: 32px;
+    left: 0;
+    width: 260px;
+    height: 32px;
+    line-height: 32px;
+    font-size: 12px;
+    text-align: left;
+    color: #444444;
+}
+main>.aside-left>.left-list>li:nth-child(6)>.list06-bottom01>.txt03 {
+    position: absolute;
+    top: 64px;
+    left: 0;
+    width: 260px;
+    height: 32px;
+    line-height: 32px;
+    font-size: 18px;
+    text-align: left;
+    color: #444444;
+}
+main>.aside-left>.left-list>li:nth-child(6)>.list06-bottom01>.txt04 {
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    width: 112px;
+    height: 26px;
+    line-height: 26px;
+    font-size: 12px;
+    color: #7E8B9B;
+    border: 1px solid #7E8B9B;
+    cursor: pointer;
+}
+main>.aside-left>.left-list>li:nth-child(6)>.list06-bottom01>.txt04:hover {
+    background-color: #7E8B9B;
+    color: #fff;
+}
+main>.aside-left>.left-list>li:nth-child(6)>.list06-bottom01>.txt05 {
+    position: absolute;
+    bottom: 10px;
+    right: 0;
+    width: 112px;
+    height: 26px;
+    line-height: 26px;
+    font-size: 12px;
+    color: #7E8B9B;
+    border: 1px solid #7E8B9B;
+    cursor: pointer;
+}
+main>.aside-left>.left-list>li:nth-child(6)>.list06-bottom01>.txt05:hover {
+    background-color: #7E8B9B;
+    color: #fff;
+}
+main>.aside-left>.left-list>li:nth-child(6)>.list06-bottom01>.txt06 {
+    position: absolute;
+    right: 0;
+    bottom: 38px;
+    width: 120px;
+    height: 120px;
+    border: 1px solid #ccc;
+    background: url("../img/icon01.jpg") -158px -759px;
+    display: none;
+}
+
+
+/*-----------------------------------  隐藏部分  -------------------------------*/
+
+main>.aside-left>.left-list>li:nth-child(6)>.list06-bottom02 {
+    position: absolute;
+    top: 68px;
+    left: 15px;
+    width: 260px;
+    height: 151px;
+    opacity: 0;
+    z-index: 0; 
+}
+main>.aside-left>.left-list>li:nth-child(6)>.list06-bottom02>.txt01 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 260px;
+    height: 32px;
+    line-height: 32px;
+    font-size: 12px;
+    text-align: left;
+    color: #444444;
+}
+main>.aside-left>.left-list>li:nth-child(6)>.list06-bottom02>.txt02 {
+    position: absolute;
+    top: 32px;
+    left: 0;
+    width: 260px;
+    height: 32px;
+    line-height: 32px;
+    font-size: 12px;
+    text-align: left;
+    color: #444444;
+}
+main>.aside-left>.left-list>li:nth-child(6)>.list06-bottom02>.txt03 {
+    position: absolute;
+    top: 64px;
+    left: 0;
+    width: 260px;
+    height: 32px;
+    line-height: 32px;
+    font-size: 18px;
+    text-align: left;
+    color: #444444;
+}
+main>.aside-left>.left-list>li:nth-child(6)>.list06-bottom02>.txt04 {
+    position: absolute;
+    top: 96px;
+    left: 0;
+    width: 260px;
+    height: 26px;
+    line-height: 26px;
+    font-size: 12px;
+    text-align: left;
+    color: #7E8B9B;
+}
+
+main>.aside-left>.left-list>li:nth-child(6)>.list06-bottom03 {
+    position: absolute;
+    top: 68px;
+    left: 15px;
+    width: 260px;
+    height: 151px;
+    opacity: 0;
+    z-index: 1; 
+}
+main>.aside-left>.left-list>li:nth-child(6)>.list06-bottom03>.txt01 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 260px;
+    height: 32px;
+    line-height: 32px;
+    font-size: 12px;
+    text-align: left;
+    color: #444444;
+}
+main>.aside-left>.left-list>li:nth-child(6)>.list06-bottom03>.txt02 {
+    position: absolute;
+    top: 32px;
+    left: 0;
+    width: 260px;
+    height: 32px;
+    line-height: 32px;
+    font-size: 18px;
+    text-align: left;
+    color: #444444;
+}
+main>.aside-left>.left-list>li:nth-child(6)>.list06-bottom03>.txt03 {
+    position: absolute;
+    top: 64px;
+    left: 0;
+    width: 260px;
+    height: 26px;
+    line-height: 26px;
+    font-size: 12px;
+    text-align: left;
+    color: #7E8B9B;
+}
+
+
+
+/*-----------------------------------  隐藏部分  -------------------------------*/
+
+/*左边侧边栏的结束  */
+
+/*--------------------------------华丽的分割线 中-----------------------------------------------*/
+
+/*中间内容的开始  */
+main>section {
+    position: absolute;
+    left: 305px;
+    width: 590px;
+    height: 1850px;
+    /* background-color: yellow; */
+}
+main section .section-list {
+    position: absolute;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 590px;
+    height: 1850px;
+}
+main section .section-list li {
+    float: left;
+    width: 590px;
+}
+
+/*---------------------中间内容-01-顶部轮播图 开始 ------------------------  */
+main>section>.section-list>li:nth-child(1) {
+    position: relative;
+    height: 265px;
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+main>section>.section-list>li:nth-child(1)>ul {
+    position: absolute;
+    list-style: none;
+    padding: 0;
+    width: 4130px;
+    height: 265px;
+}
+main>section>.section-list>li:nth-child(1)>ul>li {
+    float: left;
+    width: 590px;
+    height: 265px;
+}
+main>section>.section-list>li:nth-child(1)>ol {
+      position: absolute;
+      right: 10px;
+      bottom: 10px;
+      width: 155px;
+      height: 15px;
+      line-height: 20px;
+      text-align: center;
+    }
+    
+main>section>.section-list>li:nth-child(1)>ol>li {
+      float: left;
+      width: 15px;
+      height: 15px;
+      background: url("../img/checkbox/icon.png") -122px -77px;
+      margin-left: 10px;
+      cursor: pointer;
+    }
+main>section>.section-list>li:nth-child(1)>ol>li.current {
+      background: url("../img/checkbox/icon.png") -96px -77px;
+    }
+
+
+/*---------------------中间内容-01-顶部轮播图 结束 ------------------------  */
+
+/*---------------------中间内容-02- 新闻tab栏 开始 ------------------------  */
+main>section>.section-list>.list-news {
+    position: relative;
+    width: 560px;
+    height: 265px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: white;
+    margin-bottom: 15px;
+}
+main>section>.section-list>.list-news>.news-top {
+    position: absolute;
+    width: 560px;
+    height: 45px;
+    border-bottom: 1px solid #EAEAEC;
+}
+main>section>.section-list>.list-news>.news-top>ul>li {
+    float: left;
+    width: 74px;
+    height: 45px;
+    line-height: 45px;
+    font-size: 16px;
+    color: #444444;
+    text-align: center;
+    cursor: pointer;
+}
+main>section>.section-list>.list-news>.news-top>ul>li:nth-child(1) {
+    color: #E86656;
+    border-bottom: 2px solid #E86656;
+}
+main>section>.section-list>.list-news>.news-top>.news-top-more {
+    position: absolute;
+    right: 0;
+    width: 40px;
+    height: 45px;
+    line-height: 45px;
+}
+main>section>.section-list>.list-news>.news-bottom {
+    position: absolute;
+    bottom: 15px; 
+    width: 560px;
+    height: 197px;
+    overflow: hidden;
+}
+main>section>.section-list>.list-news>.news-bottom>ul>li {
+    width: 560px;
+    height: 33px;
+    line-height: 33px;
+    text-indent: 20px;
+}
+main>section>.section-list>.list-news>.news-bottom>.bottom-list {
+    position: absolute;
+    width: 2950px;
+    height: 197px;
+}
+main>section>.section-list>.list-news>.news-bottom>.bottom-list>li>ul>li {
+    position: relative;
+    width: 560px;
+    height: 33px;
+    border-bottom: 1px dashed #CECECF;
+}
+main>section>.section-list>.list-news>.news-bottom>.bottom-list>li>ul>li:hover i {
+    transform: rotateY(180deg);
+} 
+main>section>.section-list>.list-news>.news-bottom>.bottom-list>li>ul>li>i{
+    position: absolute;
+    left: 0;
+    margin-top: 12px;
+    width: 10px;
+    height: 10px;
+    background: url("../img/checkbox/icon.png") 0 -23px;
+    transition: all 1s;
+}
+main>section>.section-list>.list-news>.news-bottom>.bottom-list>li>ul>li>.date {
+    position: absolute;
+    right: 0;
+}
+
+
+
+
+/*---------------------中间内容-02- 新闻tab栏 结束------------------------- */
+
+/*---------------------中间内容-03- 门派介绍 的开始-------------------------  */
+main>section>.section-list>li:nth-child(3) {
+    position: relative;
+    height: 435px;
+    margin-bottom: 15px;
+    background-color: white;
+}
+ .list-menpai>.menpai-top {
+    width: 560px;
+    height: 45px;
+    margin: 0 15px;
+    border-bottom: 1px solid #EAEAEC;
+} 
+.list-menpai>.menpai-top>ul {
+    position: absolute;
+    left: 15px;
+    width: 560px;
+    height: 45px;
+    display: flex;
+    justify-content: space-around;
+}
+.list-menpai>.menpai-top>ul>li {
+    flex: 1;
+    height: 45px;
+    text-align: center;
+    line-height: 55px;
+    cursor: pointer;
+}
+.list-menpai>.menpai-top>ul>li:nth-child(1) {
+    font-size: 12px;
+    color: #E86656;
+    border-bottom: 2px solid #E86656;
+}
+
+.list-menpai>.menpai-bottom{
+    position: relative;
+    width: 590px;
+    height: 386px;
+    overflow: hidden;
+}
+.list-menpai>.menpai-bottom>ul>li>.menpai-bg {
+    position: absolute;
+    left: 590px;
+    bottom: 0;
+    width: 590px;
+    height: 385px;
+    z-index: 0;
+}
+.list-menpai>.menpai-bottom>ul>li:first-of-type>.menpai-bg {
+    position: absolute;
+    left: 0;
+    z-index: 1;
+}
+.list-menpai>.menpai-bottom>ul>li>.menpai-bg>img {
+    position: absolute;
+    right: 0;
+    bottom: -1px;
+    /* width: 590px;
+    height: 385px; */
+}
+.list-menpai>.menpai-bottom>ul>li>.menpai-recommend {
+    position: absolute;
+    left: -295px;
+    bottom: 20px;
+    width: 290px;
+    height: 365px;
+    z-index: 2;
+}
+.list-menpai>.menpai-bottom>ul>li:first-of-type>.menpai-recommend {
+    position: absolute;
+    left: 0;
+}
+.list-menpai>.menpai-bottom>ul>li>.menpai-recommend>i {
+    position: absolute;
+    top: 5px;
+    left: 15px;
+    width: 207px;
+    height: 67px;
+}
+.list-menpai>.menpai-bottom>ul>li>.menpai-recommend>.text01 {
+    position: absolute;
+    top: 72px;
+    left: 15px;
+    font-size: 14px;
+    color: #666;
+}
+
+.list-menpai>.menpai-bottom>ul>li>.menpai-recommend>.text02 {
+    position: absolute;
+    top: 92px;
+    left: 15px;
+    width: 278px;
+    font-size: 12px;
+    color: #949494;
+}
+.list-menpai>.menpai-bottom>ul>li>.menpai-recommend>.m-r-text {
+    position: absolute;
+    left: 15px;
+    top: 158px;
+    width: 150px;
+    height: 14px;
+}
+.list-menpai>.menpai-bottom>ul>li>.menpai-recommend>.m-r-text>span {
+    position: absolute;
+}
+.list-menpai>.menpai-bottom>ul>li>.menpai-recommend>.m-r-text>ul {
+    position: absolute;
+    top: 2px;
+    left: 60px;
+}
+.list-menpai>.menpai-bottom>ul>li>.menpai-recommend>.m-r-text>ul:hover li {
+    transform: rotateY(360deg);
+}
+.list-menpai>.menpai-bottom>ul>li>.menpai-recommend>.m-r-text>ul>li {
+    float: left;
+    width: 14px;
+    height: 14px;
+    transition: all 1s;
+    background: url("../img/checkbox/icon.png") -130px -113px;
+}
+.list-menpai>.menpai-bottom>ul>li>.menpai-recommend>.m-r-text>ul>li:nth-child(4) {
+    background: url("../img/checkbox/icon.png") -156px -113px;
+}
+.list-menpai>.menpai-bottom>ul>li>.menpai-recommend>.m-r-text>ul>li:nth-child(5) {
+    background: url("../img/checkbox/icon.png") -156px -113px;
+}
+.list-menpai>.menpai-bottom>ul>li>.menpai-recommend>.m-r-bg {
+    position: absolute;
+    left: 15px;
+    bottom: 40px;
+    width: 276px;
+    height: 130px;
+    padding: 1px;
+    border: 1px solid #E3E3E3;
+    cursor: pointer;
+}
+.list-menpai>.menpai-bottom>ul>li>.menpai-recommend>.m-r-bg>img{
+    width: 100%;
+    height: 100%;
+}
+.list-menpai>.menpai-bottom>ul>li>.menpai-recommend>.text03 {
+    position: absolute;
+    bottom: 0px;
+    left: 15px;
+    width: 90px;
+    height: 26px;
+    line-height: 26px;
+    text-align: center;
+    font-size: 12px;
+    color: #98A2AF;
+    cursor: pointer;
+    border: 1px solid #98A2AF;
+}
+.list-menpai>.menpai-bottom>ul>li>.menpai-recommend>.text03:hover {
+    color: #fff;
+    background-color: #666;
+}
+
+
+
+/*---------------------中间内容-03- 门派介绍 的结束--------------------------  */
+
+
+/*---------------------中间内容-04- 同人站 的开始----------------------------  */
+
+main>section>.section-list>li:nth-child(4) {
+    position: relative;
+    width: 590px;
+    height: 290px;
+    margin-bottom: 15px;
+    background-color: white;
+}
+main>section>.section-list>.list-tongren>.tongren-top {
+    position: absolute;
+    width: 560px;
+    height: 45px;
+    margin: 0 15px;
+    border-bottom: 1px solid #EAEAEC;
+}
+main>section>.section-list>.list-tongren>.tongren-top>span {
+    position: absolute;
+    width: 60px;
+    height: 45px;
+    line-height: 45px;
+    font-size: 16px;
+    text-align: center;
+    color: #E86656;
+    cursor: pointer;
+    border-bottom: 2px solid #E86656;
+}
+main>section>.section-list>.list-tongren>.tongren-bottom {
+    position: absolute;
+    top: 46px;
+    left: 15px;
+    width: 558px;
+    height: 230px;
+}
+main>section>.section-list>.list-tongren>.tongren-bottom>.icon-list {
+    width: 558px;
+    height: 36px;
+}
+main>section>.section-list>.list-tongren>.tongren-bottom>.icon-list>li{
+    float: left;
+    position: relative;
+    width: 98px;
+    height: 36px;
+    text-indent: 25px;
+    line-height: 36px;
+    cursor: pointer;
+}
+main>section>.section-list>.list-tongren>.tongren-bottom>.icon-list>li:first-of-type{
+    color: #E86656;
+}
+main>section>.section-list>.list-tongren>.tongren-bottom>ul>li>i{
+    position: absolute;
+    left: 0;
+    top: 10px;
+    width: 18px;
+    height: 18px;
+    background: url("../img/mp/icon-tr.png") no-repeat 0 -55px;
+}
+main>section>.section-list>.list-tongren>.tongren-bottom>.pic-list {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 560px;
+    height: 195px;
+}
+main>section>.section-list>.list-tongren>.tongren-bottom>.pic-list>li {
+    float: left;
+    width: 105px;
+    height: 195px;
+    margin-right: 5px;
+    border: 1px solid #ccc;
+    
+}
+main>section>.section-list>.list-tongren>.tongren-bottom>.pic-list>li>img {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
+
+
+/*---------------------中间内容-04- 同人站 的结束----------------------------  */
+
+
+/*---------------------中间内容-05- 攻略站 的开始-----------------------------  */
+
+main>section>.section-list>li:nth-child(5) {
+    position: relative;
+    height: 290px;
+    margin-bottom: 15px;
+    background-color: white;
+}
+main>section>.section-list>.list-gonglue>.gonglue-top {
+    position: absolute;
+    width: 560px;
+    height: 45px;
+    margin: 0 15px;
+    border-bottom: 1px solid #EAEAEC;
+}
+main>section>.section-list>.list-gonglue>.gonglue-top>span:first-of-type {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 60px;
+    height: 45px;
+    line-height: 45px;
+    font-size: 16px;
+    text-align: center;
+    color: #E86656;
+    border-bottom: 2px solid #E86656;
+    cursor: pointer;
+}
+main>section>.section-list>.list-gonglue>.gonglue-top>span:last-of-type {
+    position: absolute;
+    right: 0;
+    top: 13px;
+    cursor: pointer;
+}
+main>section>.section-list>.list-gonglue>.gonglue-bottom {
+    position: absolute;
+    left: 15px;
+    bottom: 0;
+    width: 560px;
+    height: 244px;
+}
+ main>section>.section-list>.list-gonglue>.gonglue-bottom>.g-b-list {
+    position: relative;
+    width: 560px;
+    height: 244px;
+} 
+ main>section>.section-list>.list-gonglue>.gonglue-bottom>.g-b-list>li {
+    float: left;
+    position: relative;
+    width: 560px;
+    height: 33px;
+    line-height: 33px;
+    text-indent: 15px;
+    border-bottom: 1px dashed #A4A4A4;
+} 
+ main>section>.section-list>.list-gonglue>.gonglue-bottom>.g-b-list>li>i {
+    position: absolute;
+    top: 12px;
+    left: 0;
+    width: 9px;
+    height: 9px;
+    line-height: 33px;
+    background: url("../img/checkbox/icon.png") 0 -24px;
+} 
+main>section>.section-list>.list-gonglue>.gonglue-bottom>.g-b-list>li>span {
+    position: absolute;
+    right: 0;
+    color: #A4A4A4;
+}
+main>section>.section-list>.list-gonglue>.gonglue-bottom>.g-b-list>li:last-of-type {
+    border: 0;
+}
+main>section>.section-list>.list-gonglue>.gonglue-bottom>.g-b-list>li:first-of-type {
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 560px;
+    height: 108px;
+    border-bottom: 1px dashed #A4A4A4;
+}
+main>section>.section-list>.list-gonglue>.gonglue-bottom>ul>li:first-of-type>s {
+    position: absolute;
+    left: 0;
+    top: 10px;
+    width: 180px;
+    height: 85px;
+    background: url("../img/gonglve/gonglue_01.png") center center;
+}
+main>section>.section-list>.list-gonglue>.gonglue-bottom>ul>li:first-of-type>p {
+    position: absolute;
+    left: 190px;
+    top: 15px;
+    text-indent: 0;
+    color: #E86656;
+}
+
+main>section>.section-list>.list-gonglue>.gonglue-bottom>ul>li:first-of-type>span:first-of-type {
+    position: absolute;
+    left: 195px;
+    top: 48px;
+    width: 355px;
+    line-height: 20px;
+    text-indent: 0;
+    color: #5E5E5E;
+}
+main>section>.section-list>.list-gonglue>.gonglue-bottom>ul>li:first-of-type>span:last-of-type {
+    position: absolute;
+    right: 0px;
+    top: 80px;
+    text-indent: 0;
+    color: #A4A4A4;
+}
+
+
+
+
+/*---------------------中间内容-05- 攻略站 的结束-----------------------------  */
+
+/*---------------------中间内容-06- 游戏平台 的开始-----------------------------  */
+
+
+main>section>.section-list>li:nth-child(6) {
+    position: relative;
+    margin-bottom: 0;
+    height: 230px;
+    margin-bottom: 15px;
+    background-color: white;
+}
+main>section>.section-list>.list-game>.game-top {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 15px;
+    width: 560px;
+    height: 45px;
+    border-bottom: 1px solid #EAEAEC;
+}
+main>section>.section-list>.list-game>.game-top>.g-t-list>li {
+    float: left;
+    position: relative;
+    width: 65px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    font-size: 16px;
+    margin-right: 5px;
+}
+main>section>.section-list>.list-game>.game-top>.g-t-list>li:first-of-type {
+    color: #E86656;
+    border-bottom: 2px solid #E86656;
+}
+main>section>.section-list>.list-game>.game-bottom>ul {
+    position: absolute;
+    bottom: 10px;
+    left: 15px;
+}
+main>section>.section-list>.list-game>.game-bottom>ul>li {
+    float: left;
+    position: relative;
+    width: 560px;
+    height: 33px;
+    line-height: 33px;
+    text-indent: 20px;
+    border-bottom: 1px dashed #EAEAEC;
+}
+main>section>.section-list>.list-game>.game-bottom>ul>li>i {
+    position: absolute;
+    top: 12px;
+    left: 0;
+    width: 9px;
+    height: 9px;
+    line-height: 33px;
+    background: url("../img/checkbox/icon.png") 0 -24px;
+}
+main>section>.section-list>.list-game>.game-bottom>ul>li>span {
+    position: absolute;
+    right: 0;
+    color: #AFAFAF;
+}
+
+
+/*----------------------中间内容-06- 游戏平台 的结束------------------------------  */
+
+/*中间内容的结束  */
+
+/*--------------------------------华丽的分割线 右-----------------------------------*/
+
+/*右侧边栏的开始  */
+main>.aside-right {
+    position: absolute;
+    right: 0;
+    width: 290px;
+    height: 1850px;
+    /* background-color: hotpink; */
+
+}
+main>.aside-right>.right-list {
+    position: absolute;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 290px;
+    height: 1850px;
+}
+main>.aside-right>.right-list>li {
+    float: left;
+    margin-bottom: 15px;
+    width: 290px;
+}
+
+/*-------------------------右边栏-01-版本内容 的开始---------------------------------  */
+
+main>.aside-right>.right-list>.list01-version {
+    position: relative;
+    height: 265px;
+    background-color: white;
+}
+main>.aside-right>.right-list>.list01-version>.version-top {
+    position: absolute;
+    left: 15px;
+    top: 0;
+    width: 260px;
+    height: 45px;
+    border-bottom: 1px solid #EAEAEC;
+}
+main>.aside-right>.right-list>.list01-version>.version-top>span:first-of-type {
+    position: absolute;
+    left: 0;
+    width: 74px;
+    height: 45px;
+    line-height: 45px;
+    font-size: 16px;
+    color: #E86656;
+    border-bottom: 2px solid #E86656;
+    cursor: pointer;
+}
+main>.aside-right>.right-list>.list01-version>.version-top>span:last-of-type {
+    position: absolute;
+    right: 0;
+    height: 45px;
+    line-height: 45px;
+    color: #444;
+    cursor: pointer;
+}
+main>.aside-right>.right-list>.list01-version>.version-center {
+    position: absolute;
+    left: 15px;
+    top: 47px;
+    width: 260px;
+    height: 138px;
+    border-bottom: 1px dashed #EAEAEC;
+}
+main>.aside-right>.right-list>.list01-version>.version-center>i {
+    position: absolute;
+    top: 12px;
+    left: 0px;
+    width: 260px;
+    height: 80px;
+    background: url("../img/chongzhi.jpg");
+    cursor: pointer;
+}
+main>.aside-right>.right-list>.list01-version>.version-center>span {
+    position: absolute;
+    bottom: 10px;
+    left: 0px;
+    width: 260px;
+    text-align: center;
+    font-size: 18px;
+    color: #137C75;
+    cursor: pointer;
+}
+main>.aside-right>.right-list>.list01-version>.version-bottom {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 260px;
+    height: 80px;
+}
+main>.aside-right>.right-list>.list01-version>.version-bottom>ul>li {
+    float: left;
+    position: relative;
+    top: 0;
+    left: 15px;
+    width: 129px;
+    height: 33px;
+    line-height: 33px;
+    text-indent: 20px;
+    cursor: pointer;
+}
+main>.aside-right>.right-list>.list01-version>.version-bottom>ul>li>s {
+    position: absolute;
+    top: 12px;
+    left: 0;
+    width: 9px;
+    height: 9px;
+    line-height: 33px;
+    background: url("../img/checkbox/icon.png") 0 -24px;
+}
+
+
+
+/*-------------------------右边栏-01-版本内容 的结束---------------------------------  */
+
+
+/*-------------------------右边栏-02-新闻 的结束---------------------------------  */
+
+main>.aside-right>.right-list>.list02-news {
+    position: relative;
+    height: 265px;
+    background-color: white; 
+}
+main>.aside-right>.right-list>.list02-news>span:first-of-type {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 290px;
+    height: 125px;
+    background: url("../img/gg03.jpg");
+    cursor: pointer;
+}
+main>.aside-right>.right-list>.list02-news>span:last-of-type {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 290px;
+    height: 125px;
+    background: url("../img/gg04.jpg");
+    cursor: pointer;
+}
+
+
+
+/*-------------------------右边栏-02-新闻 的结束---------------------------------  */
+
+
+
+/*-------------------------右边栏-03-活动 的开始---------------------------------  */
+main>.aside-right>.right-list>.list03-activity {
+    height: 435px;
+    background-color: white;
+}
+main>.aside-right>.right-list>.list03-activity>.activity-top {
+    width: 290px;
+    height: 180px;
+    background: url("../img/img/lunbo02000.jpg") center/contain;
+    border: 5px solid #fff;
+    box-sizing: border-box;
+}
+main>.aside-right>.right-list>.list03-activity>.activity-bottom>ul>li {
+    float: left;
+    position: relative;
+    width: 144px;
+    height: 84px;
+    line-height: 84px;
+    text-indent: 70px;
+    font-size: 14px;
+    border-top: 1px solid #E9E9E9;
+    border-right: 1px solid #E9E9E9;
+}
+main>.aside-right>.right-list>.list03-activity>.activity-bottom>ul>li:nth-child(even) {
+    border-right: 0;
+}
+main>.aside-right>.right-list>.list03-activity>.activity-bottom>ul>li>b {
+    position: absolute;
+    left: 30px;
+    top: 28px;
+    width: 34px;
+    height: 34px;
+    background: url("../img/checkbox/icon.png") -1px -170px;
+}
+
+
+
+/*-------------------------右边栏-03-活动 的结束---------------------------------  */
+
+
+/*-------------------------右边栏-04-直播 的开始---------------------------------  */
+
+main>.aside-right>.right-list>.list04-play {
+    position: relative;
+    height: 290px;
+    background-color: white;
+}
+main>.aside-right>.right-list>.list04-play>.play-top {
+    position: absolute;
+    left: 15px;
+    top: 0;
+    width: 260px;
+    height: 45px;
+    border-bottom: 1px solid #EAEAEC;
+}
+main>.aside-right>.right-list>.list04-play>.play-top>span {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 74px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    font-size: 16px;
+    color: #E86656;
+    cursor: pointer;
+    border-bottom: 2px solid #E86656;
+}
+main>.aside-right>.right-list>.list04-play>.play-bottom {
+    position: absolute;
+    bottom: 10px;
+    left: 0px;
+    width: 260px;
+    height: 234px;
+}
+main>.aside-right>.right-list>.list04-play>.play-bottom>i:first-of-type {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    width: 260px;
+    height: 104px;
+    cursor: pointer;
+    background: url("../img/img/zb01.jpg");
+}
+main>.aside-right>.right-list>.list04-play>.play-bottom>i:last-of-type {
+    position: absolute;
+    bottom: 0px;
+    left: 15px;
+    width: 260px;
+    height: 102px;
+    cursor: pointer;
+    background: url("../img/img/zb02.jpg");
+}
+
+
+
+/*-------------------------右边栏-04-直播 的结束---------------------------------  */
+
+/*-------------------------右边栏-05-赛事中心 的开始-----------------------------  */
+
+main>.aside-right>.right-list>.list05-contest {
+    position: relative;
+    height: 290px;
+    background-color: white;
+}
+main>.aside-right>.right-list>.list05-contest>.contest-top {
+    position: absolute;
+    left: 15px;
+    top: 0;
+    width: 260px;
+    height: 45px;
+    border-bottom: 1px solid #EAEAEC;
+}
+main>.aside-right>.right-list>.list05-contest>.contest-top>span {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 74px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    color: #E86656;
+    border-bottom: 2px solid #E86656;
+}
+main>.aside-right>.right-list>.list05-contest>.contest-center {
+    position: absolute;
+    top: 58px;
+    left: 15px;
+    width: 260px;
+    height: 140px;
+    border: 1px solid #EAEAEC;
+    box-sizing: border-box;
+}
+main>.aside-right>.right-list>.list05-contest>.contest-bottom {
+    position: absolute;
+    left: 15px;
+    bottom: 0;
+    width: 260px;
+    height: 92px;
+}
+main>.aside-right>.right-list>.list05-contest>.contest-bottom>p:nth-of-type(1) {
+    margin-top: 14px;
+    color: #444444;
+    cursor: pointer;
+}
+main>.aside-right>.right-list>.list05-contest>.contest-bottom>p:nth-of-type(2) {
+    line-height: 25px;
+    color: #A79AA7;
+}
+main>.aside-right>.right-list>.list05-contest>.contest-bottom>span {
+    position: absolute;
+    left: 0px;
+    bottom: 13px;
+    width: 42px;
+    height: 18px;
+    text-align: center;
+    color: white;
+    border-radius: 0 0 3px 3px;
+    background-color: #E86656;
+}
+
+
+
+/*-------------------------右边栏-05-赛事中心 的结束-----------------------------  */
+
+
+/*-------------------------右边栏-06-合作伙伴 的开始-----------------------------  */
+
+main>.aside-right>.right-list>.list06-companion {
+    position: relative;
+    margin-bottom: 0;
+    height: 230px;
+    background-color: white;
+}
+main>.aside-right>.right-list>.list06-companion>.companion-top {
+    position: absolute;
+    top: 0;
+    left: 15px;
+    width: 260px;
+    height: 45px;
+    border-bottom: 1px solid #EAEAEC;
+}
+main>.aside-right>.right-list>.list06-companion>.companion-top>span {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 74px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    font-size: 16px;
+    color: #E86656;
+    border-bottom: 2px solid #E86656;
+}
+main>.aside-right>.right-list>.list06-companion>.companion-bottom {
+    position: absolute;
+    left: 15px;
+    bottom: 15px;
+    width: 260px;
+    height: 154px;
+    overflow: hidden;
+}
+main>.aside-right>.right-list>.list06-companion>.companion-bottom>ul {
+    width: 260px;
+    height: 193px;
+}
+main>.aside-right>.right-list>.list06-companion>.companion-bottom>ul>li {
+    float: left;
+    width: 75px;
+    height: 26px;
+    margin-right: 11px;
+    margin-bottom: 13px;
+}
+main>.aside-right>.right-list>.list06-companion>.companion-bottom>ul>li:last-of-type {
+    margin: 0px;
+}
+main>.aside-right>.right-list>.list06-companion>.companion-bottom>ul>li>a>img {
+    width: 100%;
+    height: 100%;
+}
+
+
+/*------------------------右边栏-06-合作伙伴 的结束--------------------------------  */
+
+/*右侧边栏的结束  */
+
+/*--------------------------------华丽的分割线------------------------------------*/
+
+/*主体main的结束  */
+
+/*content内容的结束  */
+
+/*底部footer的开始  */
+footer {
+    position: relative;
+    width: 100%;
+    height: 397px;
+}
+
+footer .footer-top {
+    position: absolute;
+    width: 100%;
+    height: 163px;
+}
+footer .footer-top img {
+    width: 100%;
+    height: 100%;
+}
+footer .footer-bottom {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 234px;
+    text-align: center;
+    color: #CBCBCB;
+    border-top: 3px solid #303031;
+    box-sizing: border-box;
+    background-color: #404141;
+}
+footer .footer-bottom>p {
+    line-height: 20px;
+}
+footer .footer-bottom>p:nth-child(1) {
+    margin: 18px 0;
+}
+footer .footer-bottom .text01 {
+    color: #FFA200;
+}
+footer .footer-bottom .bottom-pic {
+    position: relative;
+    margin: 10px auto;
+    width: 386px;
+    height: 40px;
+}
+footer .footer-bottom .bottom-pic>ul>li:nth-child(1)>a {
+    position: absolute;
+    top: 3px;
+    left: 0;
+    width: 91px;
+    height: 34px;
+    background: url("../img/底部栏/logo1.png");
+}
+footer .footer-bottom .bottom-pic>ul>li:nth-child(2)>a {
+    position: absolute;
+    top: 2px;
+    left: 100px;
+    width: 100px;
+    height: 36px;
+    background: url("../img/底部栏/logo2.png");
+}
+footer .footer-bottom .bottom-pic>ul>li:nth-child(3)>a {
+    position: absolute;
+    left: 200px;
+    width: 109px;
+    height: 40px;
+    background: url("../img/底部栏/logo3.png");
+}
+footer .footer-bottom .bottom-pic>ul>li:nth-child(4)>a {
+    position: absolute;
+    left: 320px;
+    width: 40px;
+    height: 40px;
+    background: url("../img/底部栏/logo4.png");
+}
+
+/*底部footer的结束  */
